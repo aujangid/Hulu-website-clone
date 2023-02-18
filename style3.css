@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Poppins&family=Rubik&display=swap');
+
+body {
+    /* overflow-y: hidden; Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+.main-container {}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Graphik Web", sans-serif;
+}
+
+.bg-img {
+    width: 101%;
+    height: 100vh;
+    position: relative;
+    margin: -9px;
+    filter: brightness(90%);
+}
+
+.logo {
+    width: 61px;
+    height: 24px;
+    left: 0;
+    padding: 36px;
+}
+
+.login {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #a8afbd;
+    right: 0;
+    padding: 36px;
+}
+
+.middle-layer {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+}
+
+.title {
+    color: #1ecb75;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Kavoon', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 24px;
+}
+
+.title1 {
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 16px 0px;
+    color: white;
+}
+
+.brands-mid {
+    width: 700px;
+}
+
+.btn {
+    background-color: #1CE783;
+    padding: 14px 310px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+}
+
+.link {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: underline;
+    display: block;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+    margin: 16px 0px;
+}
+
+.link1 {
+    margin-top: 26px;
+    display: block;
+    text-decoration: underline;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+}
+
+.lower-layer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 1%;
+    /* left: 0%; */
+}
+
+.btn-txt {
+    margin-right: 30px;
+}
+
+.brands-bot-left {
+    margin-left: 30px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-end {
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    background-color: black;
+    padding: 16px 36px;
+}
+
+.txt {
+    margin-left: 28px;
+    align-items: baseline
+}
+
+.title-b {
+    color: #1ecb75;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Kavoon', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 32px;
+    margin-bottom: 12px;
+
+}
+
+.title1-b {
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.section-2 {
+    background-color: black;
+    width: 101%;
+    height: 105vh;
+    margin-left: -8px;
+}
+
+.txt-2 {
+    text-align: center;
+    padding-top: 64px;
+}
+
+.title-2a {
+    color: #1ecb75;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 12px;
+}
+
+.title2-2a {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    margin: 16px 0px 10px;
+}
+
+.title2 {
+    color: #fff;
+    font-family: "Graphik Web", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 16px 0 0 0;
+}
+
+
+.container {
+    margin: 36px 36px 0px 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 315px;
+    height: 345;
+    margin-left: 24px;
+}
+
+.library__item-background {
+    width: 100%;
+    display: block;
+    position: relative;
+    filter: brightness(76%);
+
+}
+
+.poster-txt {
+
+    position: absolute;
+    bottom: -40%;
+    margin: 16px 0px 0px 16px;
+}
+
+.title-sml {
+    color: white;
+    font-family: "Graphik Web", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title-big {
+    color: white;
+    font-family: "Graphik Web", sans-serif;
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.content {
+    font-family: "Graphik Web", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 16px;
+}
+
+
+
+.section-3 {
+    background-color: black;
+    width: 101%;
+    height: 100vh;
+    margin-left: -8px;
+}
+
+.txt-3 {
+    text-align: center;
+    padding-top: 13%;
+}
+
+.title-3a {
+    color: #1ecb75;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 12px;
+}
+
+.title3-3a {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+    margin: 16px 0px 10px;
+}
+
+.title3 {
+    color: #fff;
+    font-family: "Graphik Web", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 16px 0 0 0;
+}
+
+.content-3 {
+    font-family: "Graphik Web", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 16px;
+    max-width: 700px;
+    margin: 16px auto;
+    padding: 16px 0 0 0;
+
+}
+
+.link-3rd-page {
+    color: rgba(255, 255, 255, 0.715);
+    font-family: "Graphik Web", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.section-4 {
+    width: 101%;
+    height: 100vh;
+    margin-left: -8px;
+}
+
+.page4-bg {
+    width: 100%;
+    position: relative;
+    filter: brightness(80%);
+    display: block;
+}
+
+.TabContent {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 16%;
+    top: 333%;
+}
+
+.TabContent__container {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Graphik Web", sans-serif;
+
+}
+
+.TabContent__headline {
+    color:rgba(255,255,255,0.4);
+    font-family: "Graphik Web",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.page-4-link {
+    color: rgba(255, 255, 255, 0.715);
+    font-family: "Graphik Web", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.logo-wall {
+    width: 50px;
+    height: 25px;
+    margin-top: 30%;
+}
+
+.logo-wall--bug {
+
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 12px;
+}
+.first-logo{
+    margin: 0 12px 0 0;
+}
+
+.TabContent__logoRow {
+    display: flex;
+    justify-content: flex-start;
+    margin: 24px 0;
+}
+
+.line {
+    margin: 12px 0;
+    border: 3px solid white;
+}
+.active-tab{
+color: aliceblue;
+}
+.title4{
+    margin-top: 8px;
+    width: 450px;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.36;
+    letter-spacing: 0;
+    color: white;
+}
+
+.content-4 {
+    font-family: "Graphik Web", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 16px;
+    max-width: 700px;
+
+}
+
+.title4-4a {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+    margin: 16px 0px 30px;
+}
+
+.section-6{
+    background-color: #dde0e6f2;
+    margin-top: -8px;
+    padding-top: 40px ;
+    width: 101%;
+    height: 50vh;
+    margin-left: -8px;
+}
+
+.footer--row{
+    display: flex;
+    justify-content: center;
+}
+.footer-row-expandable{
+    display: flex;
+    justify-content: space-between;
+}
+
+.css-rcau9v{
+    color: gray;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 8px 0px;
+}
+.css-s205os{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #48494c;
+    line-height: 1;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.footer-content{
+    margin: 8px 48px;
+}
+.css-fix{
+    padding: 0 46px;
+}
+.line1{
+    border: 1px solid lightgray;
+    width: 1260px;
+    margin: 2px auto;
+}
+.presentation{
+    width: 24px;
+    height: 24px;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+.footer--legal-links-left{
+    width: 220px;
+    margin-top: 48px;
+    padding-left: 210px;
+}
+.footer--legal-links-right{
+    margin: 36px 0 0 210px;
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+}
+.css-1xahdf9{
+    color: gray;
+}
+
+
+
+
+
+/* 2nd last page */
+
+
+.section-5 {
+    background-color: black;
+    width: 101%;
+    height: 100vh;
+    margin: 48px 0 0 -8px;
+    padding-top: 48px;
+}
+.line2{
+    border: 1px solid rgb(117, 114, 114);
+    width: 1195px;
+    margin: 2px auto;
+    opacity: 0.5;
+}
+table{
+    color: #fff;
+    table-layout: auto;
+    
+    border-spacing: 0px;
+    border-collapse: separate;  
+}
+td{
+    border-top: 1px solid #999;
+    padding: 24px 0;
+   
+    /* border-bottom: 2px solid #999; */
+}
+.td-font{
+    text-align: start;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.tr-note{
+    font-size: 12px;
+    font-weight: 400;
+}
+td:nth-child(2){
+    text-align: center;
+}
+td:nth-child(3){
+    text-align: center;
+}
+.css-kue5b1 {
+    font-family: "Graphik Web",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.36;
+    letter-spacing: 0;
+}
+.whole-plan {
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title5{
+    margin-top: 8px;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.36;
+    color: white;
+}
+b{
+    display: block;
+    font-weight: 800;
+}
+.plan-content {
+    
+    width: 70%;
+    height: 25%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.plan-heading {
+    color: white;
+    margin: 10px 0px;
+}
+
+
+.title5-5a{
+    /* margin-top: 8px; */
+    font-family: "Graphik Web",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: white;
+}
+/* popular plans */
+
+
+.popular-btn {
+    margin-top: 24px;
+    background-color: #1ecb75;
+    color: rgb(42, 40, 40);
+    padding: 8px 36px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 25px;
+}
+
+
+.popular-plans {
+    display: flex;
+}
+
+.baseplan {
+    color: white;
+    margin: 25px;
+    font-size: 20px;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(73, 71, 71);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 36px;
+    width: 36px;
+    left: -2px;
+    bottom: -1px;
+
+    background-color: rgb(252, 246, 246);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+.toggle{
+    display: flex;
+    align-items: center;
+}
+.logo-bundle {
+    margin: -10px;
+}
+
+.free-trial {
+    color: white;
+    margin: 16px 0  16px 8px;
+}
+
+.heading-free-trail {
+    color: rgb(179, 176, 176);
+    font-family: "Graphik Web",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.title5-a{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.free-trail-btn {
+    width: 253px;
+    margin-bottom: 32px;
+    padding: 14px 24px ;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.fixTableHead {
+    overflow-y: auto;
+    height: 586px;
+
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .fixTableHead thead th {
+    position: sticky;
+    top: 0;
+    background-color: black;
+  }
