@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Rubik&display=swap');
+
+body {
+    font-family: 'Kavoon', cursive;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* overflow-y: hidden; Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+
+}
+
+.main-container {
+    width: 100vmax;
+}
+
+.bar {
+    background-color: #1a242e;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    padding: 8px;
+    margin: -8px;
+
+}
+
+.nav-bar {
+    display: flex;
+    color: #dce3eb;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-box {
+    display: flex;
+    align-items: center;
+}
+
+.nav-box-right {
+    display: flex;
+    align-items: center;
+    margin-right: 64px;
+}
+
+.logo {
+    margin-left: 32px;
+    margin-top: 8px;
+}
+
+.link {
+    margin-left: 12px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.link1 {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 32px
+}
+
+.name {
+    color: #dce3eb;
+    margin-left: 12px;
+    font-size: 24px;
+}
+
+/* nav bar style end */
+
+
+.comining-up {
+
+    /* margin: -8px; */
+    width: -webkit-fill-available;
+}
+
+.container {
+    background-color: #1a242e;
+    margin: -38px;
+    padding: 24px 0px 0px 36px;
+    width: -webkit-fill-available;
+}
+
+.title {
+    color: #dce3eb;
+    margin: 24px;
+    font-size: 24px;
+}
+
+.card {
+    display: flex;
+    padding: 0px 0px 0px 24px;
+}
+
+.title1 {
+    color: #dce3eb;
+    margin: 24px;
+    /* padding-left: px; */
+    font-size: 24px;
+}
+
+.brand-logo {
+    margin-top: 36px;
+    text-align: center;
+}
+
+.foot-bar {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 16px auto;
+}
+
+._1NNx6V {
+    margin-left: 12px;
+    font-size: 16px;
+    color: #588ed1;
+}
+
+.copy {
+    color: #698999;
+    margin-left: 24px;
+    font-size: 16px;
+}
+
+.footer {
+    padding-bottom: 36px;
+}
